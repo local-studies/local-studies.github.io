@@ -28,7 +28,7 @@ body
 h1 
 {
   font-family: calibri, arial, sans-serif;
-  font-size: calc(1.8rem + 0.5vw);
+  font-size: calc(2rem + 0.5vw);
   font-style: italic;
   font-weight: 600;
   color: rgba(230, 230, 255, 0.9);
@@ -98,12 +98,12 @@ hr
   min-width: 95px;
   text-decoration: none;
   display: block;
-  transition: transform 0.2s ease; /* Smooth animation for hover effect */
+  transition: transform 0.7s ease; /* Smooth animation for hover effect */
 }
 
 .photobox:hover 
 {
-  transform: scale(1.05); /* Slightly enlarges cover and title on hover */
+  transform: scale(1.03); /* Slightly enlarges cover and title on hover */
 }
 
 .photobox img 
